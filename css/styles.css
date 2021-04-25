@@ -134,3 +134,24 @@ h1 {
     max-width: 90%;
     margin: 10px 0 10px 0;
 }
+
+.arrow {
+    position: absolute;
+    height: 60px;
+    border: 1px solid #000;
+    font-size: 28px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.arrow:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-top: 0.35em;
+}
+
+.answ {
+    margin: 90px 0 20px 0;;
+}
