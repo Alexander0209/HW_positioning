@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 10px 0 10px 5px;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 60%;
+    margin: auto;
+}
+
+.img-left {
+    float: left;
+    margin: 0 10px 10px 0;
+    max-width: 30%;    
+}
+
+.text {
+    text-align: justify;
+}
+
+.img-right {
+    float: right;
+    margin: 10px 0 10px 10px;
+    max-width: 30%;   
+}
+
+.square-main {
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    background-color: #4fff55;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.square-small {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+}
+
+#square-left {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#square-right {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+.circle-main {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-color: #4fff55;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.circle-small {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+#circle-left {
+    position: absolute;
+    left: 100px;
+    top: 75px;
+}
+
+#circle-right {
+    position: absolute;
+    right: 100px;
+    top: 75px;
+}
+
+.square-center {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    position: absolute;
+    top: calc((500px / 2) - 40px);
+    left: calc((500px / 2) - 40px);
+}
+
+.rectangle {
+    width: 200px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 125px;
+    left: calc((500px / 2) - 100px);
+}
+
+.galery {
+    list-style: none;
+    overflow: hidden;
+    margin: auto;
+    padding: revert;
+}
+
+.galery li {
+    text-align: center;
+    float: left;
+    width: 150px;
+    border: 2px #000 solid;
+    margin: 5px;
+}
+
+.galery li:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: bottom;
+}
+
+.galery p {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.galery img {
+    max-width: 90%;
+    margin: 10px 0 10px 0;
+}
